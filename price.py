@@ -6,3 +6,4 @@ for i in range(n):
     price=int(input("enter a number "))
     item.append([name,number,price])
 print(item)
+print("end")

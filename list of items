@@ -6,3 +6,22 @@ for i in range(n):
     price=int(input("enter a number "))
     item.append([name,number,price])
 print(item)
+
+
+
+
+
+
+
+n=int(input("enter a number "))
+item=[]
+prix=[]
+for i in range(n):
+    name=input("enter a name ")
+    number=int(input("enter a number "))
+    price=int(input("enter a number "))
+    item.append([name,number,price])
+    prix.append([price])
+print(item)
+z=sorted(prix)
+print(z)

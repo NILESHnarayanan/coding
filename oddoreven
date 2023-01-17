@@ -1,6 +1,8 @@
-arr=[5, 10, 20, 15]
-empty=[]
-for i in range(1,len(arr)-1):
-    if arr[i]>arr[i+1] and arr[i]>arr[i-1]:
-        empty.append(arr[i])
-print(empty)        
+import math
+a=27
+b=a/2
+c=math.floor(b)
+if b==c:
+    print("even")
+else:
+    print("odd")      

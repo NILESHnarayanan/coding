@@ -1,0 +1,7 @@
+a=" i like programming very much "
+b=a.split(' ')
+print(b)
+ni=""
+for i in range(len(b)-1,-1,-1):
+    ni=ni+(b[i])+" "
+print(ni)
